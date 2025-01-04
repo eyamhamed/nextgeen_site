@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-wf-page="674e8ff3affca76bf6be26c0" data-wf-site="67469acfd5b467b722b7eba8">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project</title>
+    <meta content="Project" property="og:title" />
+    <meta content="Project" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" Nom="viewport" />
+    <meta content="Webflow" Nom="generator" />
+
+    <!-- Styles -->
+    <link
+      href="https://cdn.prod.website-files.com/67469acfd5b467b722b7eba8/css/nextgeen.webflow.626fbdc32.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+
+    <!-- Fonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Work Sans:regular,500,600,700"],
+        },
+      });
+    </script>
+
+    <!-- Favicon -->
+    <link
+      href="https://cdn.prod.website-files.com/67469acfd5b467b722b7eba8/67610625d10487514f8b1d21_Favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.prod.website-files.com/67469acfd5b467b722b7eba8/676106276898c1538e34580b_Webclip.png"
+      rel="apple-touch-icon"
+    />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <section class="header-primary">
+      <div class="header">
+        <div class="container w-container">
+          <div class="navbar-black w-nav">
+            <div class="header-content">
+              <div class="logo-sub-button">
+                <a href="/" class="brand-logo w-nav-brand">
+                  <img
+                    src="https://cdn.prod.website-files.com/67469acfd5b467b722b7eba8/6746eaf98f3914224c336091_Logo%20(66).svg"
+                    alt="Original Logo"
+                    class="original-logo-white"
+                    width="146"
+                    height="34"
+                    loading="lazy"
+                  />
+                  <img
+                    src="https://cdn.prod.website-files.com/67469acfd5b467b722b7eba8/6746ecb2f6415829872c3ee0_Logo%20(67).svg"
+                    alt="Original Logo"
+                    class="original-logo-black"
+                    width="146"
+                    height="34"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+
+              <nav role="navigation" class="nav-menu w-nav-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="/service" class="nav-link">Service</a>
+                <a href="/project" class="nav-link">Projects</a>
+                <a href="/contact" class="nav-link">Contact</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETSSection -->
+    <section class="project-section">
+      <div class="container">
+        <h1 class="heading-1">Showcase of Excellence</h1>
+        <p>
+          We take pride in transforming visions into reality through exceptional craftsmanship and innovative design.
+        </p>
+
+        <div class="project-card-wrapper">
+          <div class="project-collection-list">
+            <div class="project-card">
+              <img
+                src="https://cdn.prod.website-files.com/67469acfd5b467b722b7ebef/674eaad85c2c2cdb2f8e6965_image%20-%202024-12-03T123056.644.png"
+                alt="PROJETSImage"
+                class="project-image"
+                width="628"
+                height="554"
+              />
+              <h3 class="project-title">Brand New Condos At West Beach</h3>
+              <p class="project-paragraph">
+                Experience the epitome of luxury with our exquisite beachfront villa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const removeBadge = () => {
+          const badge = document.querySelector('.w-webflow-badge');
+          if (badge) {
+            badge.remove(); // Remove the badge
+          }
+        };
+    
+        // Run once on page load
+        removeBadge();
+    
+        // Use MutationObserver to watch for dynamically added elements
+        const observer = new MutationObserver(() => {
+          removeBadge();
+        });
+    
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    </script>
+    
+  </body>
+</html>
